@@ -1,0 +1,49 @@
+# Rust build directory
+/target/
+
+# Rust/Cargo related files
+**/*.rs.bk
+Cargo.lock
+
+# If you have generated documentation locally
+/target/doc/
+
+# If you're using clippy for linting
+clippy.toml
+clippy-driver.log
+
+# If you're using rustfmt for formatting
+rustfmt.toml
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/.editorconfig
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Byebug history
+.byebug_history
+
+# Node.js
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Others
+*.log
+*.lock
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.un~
+
+# Specific tools and their generated files
+.cargo/
+*.crate
